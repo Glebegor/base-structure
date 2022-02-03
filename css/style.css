@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background: #006262;
+}
+.container{
+    padding: 0 15px;
+    background-color: #838383;
+    width: 960px;
+    margin: 0 auto;
+}
+/* header */
+header{
+    padding: 18px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+}
+.navlink{
+    margin-left: 10px;
+}
+.logo{
+    width: 60px;
+}
+
+/* Main */
+.content{
+    padding: 18px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*footer*/
+footer{
+    height: 400px;
+}
+.form{
+    width: 200px;
+}
+a{  
+    transition: .3s;
+    color: #006262;
+    text-decoration: none;
+}
+a:hover{
+    transition: .3s;
+    color: #73ff00;
+}
+button{
+    transition: .3s;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #006262;
+}
+button:hover{
+    transition: .3s;
+    background: #73ff00;
+}
