@@ -1,11 +1,12 @@
 body{
+    color: #e5e5e5;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    background: #006262;
+    background: #002424;
 }
 .container{
     padding: 0 15px;
-    background-color: #838383;
+    background-color: #1d201d;
     width: 960px;
     margin: 0 auto;
 }
@@ -47,14 +48,16 @@ a{
 }
 a:hover{
     transition: .3s;
-    color: #73ff00;
+    color: #377702;
 }
 button{
+    color: #006262;
     transition: .3s;
     background: rgba(0, 0, 0, 0);
     border: 2px solid #006262;
 }
 button:hover{
+    color: #1d201d;
     transition: .3s;
-    background: #73ff00;
+    background: #377702;
 }
